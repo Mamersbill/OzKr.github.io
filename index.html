@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html5 lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oscar Abella</title>
+<style>
+    
+    body {
+    background-image: url('fondo.jpeg'); 
+    position: relative;
+    background-size: cover;
+    opacity: 0.95;
+    
+    
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    margin: 40px;
+    font-size: 1.2rem;
+  }
+  body {
+    height: 100%;
+    overflow: auto;
+}
+  #loader {
+    position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            z-index: 9999;
+            animation-name: hideLoading;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+        }
+        #loader img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 230px; 
+            transform: translate(-50%, -50%);
+            animation-name: fadeInOut;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+    
+  @keyframes fadeInOut {
+            0% {opacity: 0;}
+            50% {opacity: 1;}
+            80% {opacity: 0;}
+        }
+
+    
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    opacity: 1;
+  }
+  header:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: -10px;
+  }
+  section {
+    background-color: #282727;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 800px;
+    transition: all 0.3s ease;
+    position: relative;
+    opacity: 0.9;
+  }
+  section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+
+ 
+    h1 {
+        color: #f7c200;
+        text-align: center;
+        opacity: 1;
+    }
+    p {
+        color: #ccc;
+        line-height: 1.6;
+    }
+
+    h2 {
+        color: #f7c200;
+        text-align: center;
+        opacity: 5;
+        
+    }
+    p {
+        color: #ccc;
+        line-height: 1.6;
+        text-align: center;
+        opacity: 5;
+        }
+
+    h3 {
+        color: #f7c200;
+        text-align: center;
+    }
+    p {
+        color: #ccc;
+        line-height: 1.6;
+        }
+    nav {
+        text-align: center;
+        opacity: 80;
+        color: #f7c200;
+        line-height: 1.06;
+
+    }    
+         
+</style>
+
+</head>
+
+<body>
+   
+
+  <overflow class="pentagon" style="top: 150px; left: 200px;"></overflow>    
+  <div id="loader">
+  <img src="logo.jpg" alt="loader">
+  </div>
+  
+  <header>
+    <img src="me.svg" alt="Header Image" width="150" height="150">
+    <h1>Unveiling the Future with AI: Advanced Data Science, IoT and App Development</h1>
+    <p>Unlocking Insights through Data Science & ETL</p>
+  </header>
+   
+  
+  <section>
+    <h2>About Me</h2>
+    <div class="circle-image">
+    </div>
+    <p>I am a passionate engineer with a diverse skill set and a drive for innovation. Experienced in systems engineering, data science, electronics, IoT, metallomechanics, and industrial mechanics. Adept at translating complex challenges into creative solutions that optimize processes also enhance performance and passionate data enthusiast with a deep interest in turning raw data into valuable insights. With a strong background in data science, analysis, and ETL processes, I have the skills to uncover patterns and make informed decisions.</p>
+  </section>
+  
+  <section>
+    <h2>Services</h2>
+    <div class="circle-image">
+    </div>
+<nav>
+    <ul>
+      
+        <li><a href="datascience.html"  style="color: rgb(222, 218, 196);"> Data Science</a></li>
+        <li><a href="iot.html"  style="color: rgb(222, 218, 196);">IoT</a></li>
+        <li><a href="Apps.html"  style="color: rgb(222, 218, 196);">Apps</a></li>
+        
+
+        
+    </ul>
+</nav>
+  </section>    
+    
+  <section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can contact me by the following means:</p>
+        
+
+        <ul>
+          <li>Email:   oscar.abellaovalle@gmail.com</li>
+          <li>Cv <a href="https://www.twitch.tv/mopedsbill"target="_blank">On Twitch</a></li>
+          <li>Cv <a href="https://drive.google.com/file/d/1EiRMDxkf4jr5CPTfSkjmLXlxaRryppyi/view?usp=sharing" target="_blank">See my resume</a></li>
+          <li>LinkedIn:  <a href="https://www.linkedin.com/in/oabella/">look at me</a></li>
+        </ul>
+
+
+
+  <script>
+    window.addEventListener('load', function () {
+      const loader = document.getElementById('loader');
+      setTimeout(() => {
+        loader.style.display = 'none';
+      }, 2000); // 2 segundos
+    });
+ 
+ 
+  </script>
+
+  
+</body>
+</html5>
